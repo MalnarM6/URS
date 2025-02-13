@@ -18,8 +18,8 @@
 #define SPIFFS LittleFS
 Preferences preferences;
 
-const char* ssid = "iPhone od: Malnar";
-const char* password = "malnar2003";
+const char* ssid = "SSID";
+const char* password = "PASS";
 
 #define FORMAT_LittleFS_IF_FAILED true
 WebServer server(80);
