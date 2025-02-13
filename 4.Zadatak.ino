@@ -12,8 +12,8 @@
 #define SPIFFS LittleFS
 Preferences preferences;
 
-const char* ssid = "Malnar";
-const char* password = "Malnar*2024";
+const char* ssid = "SSID";
+const char* password = "PASS";
 
 #define FORMAT_LittleFS_IF_FAILED true
 WebServer server(80);
